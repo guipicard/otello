@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:columnCount="8"
+            android:rowCount="8">
+                <!--        1-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        2-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        3-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        4-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        5-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        6-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        7-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+                <!--        8-->
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+
+                <Button style="@style/BaseButton"></Button>
+        </GridLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:text">.</item>
+        <item name="android:background">@drawable/black_disc</item>
+    </style>
+
+    <style name="BlueButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:text">.</item>
+        <item name="android:background">@drawable/blue_disc</item>
+    </style>
+
+    <style name="GreenButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:text">.</item>
+        <item name="android:background">@drawable/green_disc</item>
+    </style>
+
+    <style name="RedButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:text">.</item>
+        <item name="android:background">@drawable/red_disc</item>
+    </style>
+
+    <style name="YellowButton">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:text">.</item>
+        <item name="android:background">@drawable/yellow_disc</item>
+    </style>
+</resources>
