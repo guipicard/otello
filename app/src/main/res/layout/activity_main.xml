@@ -5,141 +5,112 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-        <GridLayout
-            android:id="@+id/grid"
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:columnCount="8"
-            android:rowCount="8">
-                <!--        1-->
-                <Button style="@style/BaseButton"></Button>
+            android:layout_height="30dp"
+            android:id="@+id/turn"
+            android:layout_centerHorizontal="true"
+            android:text="@string/current_player"
+            android:textSize="25sp" />
 
-                <Button style="@style/BaseButton"></Button>
+        <ImageView
+            android:id="@+id/turnCircle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/turn"
+            android:layout_centerHorizontal="true"
+            app:backgroundTint="@null"
+            android:background="@drawable/red_disc" />
 
-                <Button style="@style/BaseButton"></Button>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/player1"
+            app:backgroundTint="@null"
+            android:background="@drawable/red_disc" />
 
-                <Button style="@style/BaseButton"></Button>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/player1" />
 
-                <Button style="@style/BaseButton"></Button>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/player1"
+            android:text="@string/skip_turn" />
 
-                <Button style="@style/BaseButton"></Button>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/player2"
+            android:layout_alignParentRight="true"
+            app:backgroundTint="@null"
+            android:background="@drawable/green_disc" />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="2"
+            android:textSize="25sp"
+            android:layout_toLeftOf="@+id/player2" />
 
-                <Button style="@style/BaseButton"></Button>
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/player2"
+            android:text="@string/skip_turn" />
 
-                <Button style="@style/BaseButton"></Button>
-                <!--        2-->
-                <Button style="@style/BaseButton"></Button>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/player3"
+            android:layout_above="@+id/passPlayer3"
+            app:backgroundTint="@null"
+            android:background="@drawable/blue_disc" />
 
-                <Button style="@style/BaseButton"></Button>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="3"
+            android:textSize="25sp"
+            android:layout_above="@+id/passPlayer3"
+            android:layout_toRightOf="@+id/player3" />
 
-                <Button style="@style/BaseButton"></Button>
+        <Button
+            android:id="@+id/passPlayer3"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/skip_turn" />
 
-                <Button style="@style/BaseButton"></Button>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/player4"
+            android:layout_above="@+id/passPlayer4"
+            android:layout_alignParentRight="true"
+            app:backgroundTint="@null"
+            android:background="@drawable/yellow_disc" />
 
-                <Button style="@style/BaseButton"></Button>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="4"
+            android:textSize="25sp"
+            android:layout_above="@+id/passPlayer4"
+            android:layout_toLeftOf="@+id/player4" />
 
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-                <!--        3-->
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-                <!--        4-->
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-                <!--        5-->
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-                <!--        6-->
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-                <!--        7-->
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-                <!--        8-->
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-
-                <Button style="@style/BaseButton"></Button>
-        </GridLayout>
+        <Button
+            android:id="@+id/passPlayer4"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/skip_turn" />
+        <include
+            layout="@layout/grid"></include>
 
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Otello</string>
+    <string name="current_player">Turn</string>
+    <string name="skip_turn">skip turn</string>
 </resources>
