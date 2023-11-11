@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Otello</string>
+    <string name="current_player">Tour</string>
+    <string name="skip_turn">Passez</string>
+    <string name="ai_text">IA</string>
+    <string name="ai_play">Jouer</string>
+    <string name="over_title">Partie Concluse</string>
+    <string name="over_sub">Nouvelle partie?</string>
+    <string name="ai_no">NON</string>
+    <string name="ai_yes">OUI</string>
+</resources>

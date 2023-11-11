@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Otello</string>
     <string name="current_player">Turn</string>
-    <string name="skip_turn">skip turn</string>
+    <string name="skip_turn">Pass</string>
+    <string name="ai_text">AI</string>
+    <string name="ai_play">Play</string>
+    <string name="over_title">Game Over</string>
+    <string name="over_sub">New game?</string>
+    <string name="ai_no">NO</string>
+    <string name="ai_yes">YES</string>
 </resources>
